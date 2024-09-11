@@ -177,6 +177,8 @@ public:
     */
   bool cancel() { return false; };
 
+  // just heritage the virtual method, do nothing for "old" controller algorithm
+  void initLocalPlan() { /* do nothing */ }
 
   /** @name Public utility functions/methods */
   //@{
